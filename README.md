@@ -17,6 +17,12 @@ git clone [https web URL]
 cd web-app-initialization
 ```
 
+* **Remove .gitkeep**
+
+``` bash
+find . -type f -name ".gitkeep" -exec rm {} +
+```
+
 ## Project Structure
 
 This project uses a modular file structure to keep components, assets, and features organized.
